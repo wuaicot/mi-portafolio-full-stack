@@ -37,8 +37,8 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
-        <Navbar.Brand href="/" className="d-flex">
+      <Container  className="mt-5">
+        <Navbar.Brand href="/" className="d-flex brand bg-white">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
