@@ -37,7 +37,7 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container  className="mt-5">
+      <Container  className="">
         <Navbar.Brand href="/" className="d-flex brand bg-white">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>

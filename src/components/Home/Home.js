@@ -12,8 +12,8 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row className="">
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading ">
+            <Col md={7} className="home-header ">
+              <h1 style={{ paddingBottom: 15 }} className="heading home-title "> 
                 Hola!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
