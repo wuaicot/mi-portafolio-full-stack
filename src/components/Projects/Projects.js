@@ -7,6 +7,7 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import demoe from "../../Assets/Projects/demo-e-commerce.png";
+import demoScroll from "../../Assets/Projects/demo-Scroll.png";
 //import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -45,7 +46,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={demoScroll}
               isBlog={false}
               title="Scroll Performance Test"
               description="Un ejemplo de página web con un comodo rendimiento en el desplazamiento scroll. Se utilizó NextJS, TailwindCSS y JavaScript (express) para su creación"
