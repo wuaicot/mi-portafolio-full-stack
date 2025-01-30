@@ -6,6 +6,7 @@ import Particle from "../Particle";
 //import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
+import demoe from "../../Assets/Projects/demo-e-commerce.png";
 //import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -28,6 +29,17 @@ function Projects() {
               description="Sala de chat personal o espacio de trabajo para compartir recursos y pasar el rato con amigos, creado con react.js, Material-UI y Firebase. Tiene funciones que permiten al usuario enviar mensajes en tiempo real, compartir imágenes y admite reacciones en los mensajes."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={demoe}
+              isBlog={false}
+              title="Demo E-Comerce"
+              description="Un ejemplo de tienda en línea, con un diseño minimalista y moderno, con un diseño responsivo para dispositivos móviles y de escritorio. Se utilizó NextJS, Shopify, NodeJS y TypesCript para su creación."
+              ghLink="https://github.com/wuaicot/Demo-e-comerceWuaicot.git"
+              demoLink="https://demo-e-comerce-wuaicot.vercel.app/"
             />
           </Col>
 
