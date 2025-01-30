@@ -45,6 +45,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Scroll Performance Test"
+              description="Un ejemplo de página web con un comodo rendimiento en el desplazamiento scroll. Se utilizó NextJS, TailwindCSS y JavaScript (express) para su creación"
+              ghLink="https://github.com/wuaicot/new-page-new.git"
+              demoLink="https://new-page-new.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Bits-0f-C0de"
