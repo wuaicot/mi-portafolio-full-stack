@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             {/* Hola Mundo! <span className="purple">Naycol R. Linares, </span> */}
-            En programación  me identifico como <span className="purple"> wuaicot</span>
+            En programación  me identifico como <span className="purple"> Wuaicot</span>
             <br />
             Actualmente trabajo como desarrollador de aplicaciones web en modalidad freelance.            <br />
             Completé un BootCamp especializado Full Stack y otros cursos
@@ -29,7 +29,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "¡Esfuérzate en construir cosas que hagan la diferencia!"{" "}
+            "¡Esfuérzate por aprender algo nuevo cada día!"{" "}
           </p>
           <footer className="blockquote-footer">Wuaicot</footer>
         </blockquote>
