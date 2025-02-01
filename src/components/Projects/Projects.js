@@ -23,6 +23,17 @@ function Projects() {
         <p style={{ color: "white" }}>
         Aquí hay algunos proyectos en los que he trabajado recientemente.        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Chatify"
+              description="Sala de chat personal o espacio de trabajo para compartir recursos y pasar el rato con amigos, creado con react.js, Material-UI y Firebase. Tiene funciones que permiten al usuario enviar mensajes en tiempo real, compartir imágenes y admite reacciones en los mensajes"
+              ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://chatify-49.web.app/"
+            />
+          </Col>          
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -32,7 +43,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
-          </Col>
+          </Col>          
 
           <Col md={4} className="project-card">
             <ProjectCard

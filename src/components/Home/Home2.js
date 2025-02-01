@@ -19,8 +19,7 @@ function Home2() {
               PERMITAME <span className="purple"> PRESENTARME </span>
             </h1>
             <p className="home-about-body">
-              Me enamoré de la programación y al menos he aprendido algo,
-              creo... 😎
+              Me enamoré de la programación y estoy en constante apredizaje
               <br />
               <br />
               Soy fluido en lenguajes y tecnologías como
