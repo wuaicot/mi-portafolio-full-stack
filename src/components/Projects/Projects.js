@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import demoe from "../../Assets/Projects/demo-e-commerce.png";
 import demoScroll from "../../Assets/Projects/demo-Scroll.png";
 import dropshipping from "../../Assets/Projects/demoDropShippingLaptop.png";
+import enesperalaptop from "../../Assets/Projects/enesperalaptop.png";
 //import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -25,12 +26,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={enesperalaptop}
               isBlog={false}
-              title="Chatify"
-              description="Sala de chat personal o espacio de trabajo para compartir recursos y pasar el rato con amigos, creado con react.js, Material-UI y Firebase. Tiene funciones que permiten al usuario enviar mensajes en tiempo real, compartir imágenes y admite reacciones en los mensajes"
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Enespera.com"
+              description="una aplicacion web para recervas y compra de propiedades inmuebles. Se utilizó React, Redux, CSS y JavaScript para su creación"
+              ghLink=""
+              demoLink="https://www.enespera.com/"
             />
           </Col>          
           
