@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import profileImg from "../../Assets/unnamed.jpg";
 
 function About() {
   return (
@@ -21,6 +22,14 @@ function About() {
               paddingBottom: "50px",
             }}
           >
+            <div style={{ textAlign: "center", marginBottom: "20px" }}>
+              <img
+                src={profileImg}
+                alt="profile"
+                className="img-fluid"
+                style={{ borderRadius: "50%", maxWidth: "150px" }}
+              />
+            </div>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Así <strong className="purple">Soy !</strong>
             </h1>
@@ -34,6 +43,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
           Habilidades <strong className="purple">Profesionales </strong>
         </h1>
@@ -52,3 +62,9 @@ function About() {
 }
 
 export default About;
+
+
+
+
+
+//import { SiChatbot, SiFigma, SiTrello, SiShopify, SiAstro, SiTailwindcss, SiBootstrap, SiVite, SiTypescript } from "react-icons/si";
