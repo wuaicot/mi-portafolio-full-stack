@@ -50,7 +50,7 @@ function Home2() {
               </i>
               &nbsp; como
               <i>
-                <b className="purple"> React.js, Next.js / Vite</b>
+                <b className="purple"> React.js, Next.js | Vite | Astro</b> 
               </i>
             </p>
           </Col>
