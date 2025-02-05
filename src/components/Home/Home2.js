@@ -27,7 +27,7 @@ function Home2() {
                 <b className="purple">
                   {" "}
                   Javascript, HTML, CSS, TypeScript, Node, React, Redux,
-                  postgre-SQL, entre otros...
+                  postgre-SQL, entre otros
                 </b>
               </i>
               <br />
