@@ -96,10 +96,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="Mi página de blog personal está creada con Next.js y Tailwind CSS, que toma el contenido de los archivos de maquetación y lo renderiza con Next.js. Admite el modo oscuro y permite escribir blogs fácilmente con Markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Blog-Wuaicot"
+              description="Mi página de blog personal está creada con Next.js y Tailwind CSS, que toma el contenido de los archivos de maquetación y lo renderiza con Next.js. Admite el modo oscuro y permite escribir blogs fácilmente con Markdown"
+              ghLink="https://github.com/wuaicot/Blog-Wuaicot.git"
+              demoLink="https://blog-wuaicot-rust.vercel.app/"
             />
           </Col>
 
