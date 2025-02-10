@@ -56,7 +56,13 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <a
+                href="https://opensea.io/es/wuaicotnft22"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={myImg} className="img-fluid" alt="avatar" />
+              </a>
             </Tilt>
           </Col>
         </Row>

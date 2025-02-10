@@ -23,7 +23,7 @@ function Projects() {
           Mis Proyectos <strong className="purple">Recientes </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Aquí hay algunos proyectos en los que he trabajado recientemente.{" "}
+          Aquí hay algunos proyectos en los que he trabajado últimamente{" "}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
