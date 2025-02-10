@@ -32,7 +32,7 @@ function About() {
             </div>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Así <strong className="purple">soy !</strong>
-            </h1>
+            </h1>                                 
             <Aboutcard />
           </Col>
           <Col
