@@ -70,7 +70,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>ENCUÉNTRAME EN</h1>
             <p>
-              Siéntete libre de <span className="purple">conectar </span>conmigo
+              Siéntete libre de hacer <span className="purple"> clic </span>
               en:
             </p>
             <ul className="home-about-social-links">
