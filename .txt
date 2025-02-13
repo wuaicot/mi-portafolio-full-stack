@@ -1,0 +1,1 @@
+//agregarle opción de traductor a la app
