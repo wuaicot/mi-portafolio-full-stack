@@ -25,11 +25,11 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Wuaicot](https://github.com/wuaicot/wuaicot). Thanks!
 
 ## Built With
 
-My personal portfolio [soumyajit.tech](https://wuaicot.vercel.app/) which features some of my GitHub projects as well as my resume and technical skills.
+My personal portfolio [https://mi-portafolio-full-stack.vercel.app/](https://wuaicot.vercel.app/) which features some of my GitHub projects as well as my resume and technical skills.
 
 This project was built using these technologies.
 
