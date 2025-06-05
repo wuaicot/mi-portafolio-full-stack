@@ -26,6 +26,18 @@ function Projects() {
           Aquí hay algunos proyectos en los que he trabajado últimamente{" "}
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={landinglaptop}
+              isBlog={false}
+              title="Demo-Landing Page"
+              description="este es un ejemplo de una landing page , con un diseño minimalista, moderno y responsivo para dispositivos móviles y de escritorio. Se utilizó ReactJS HTML, CSS y JavaScript para su creación"
+              ghLink="https://github.com/wuaicot/landingpage-templete.git"
+              demoLink="https://landingpage-templete.vercel.app/"
+            />
+          </Col> */}
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={landinglaptop}
@@ -119,7 +131,7 @@ function Projects() {
               imgPath={ruleta}
               isBlog={false}
               title="WUAICOT RULETA"
-              description= "Una aplicación web full-stack que implementa un juego de ruleta multijugador. El frontend, desarrollado con React y Babylon.js, ofrece una experiencia 3D inmersiva. El backend, construido con Node.js, Express y Socket.io, gestiona la lógica del juego en tiempo real y la comunicación entre los jugadores.  MobX se utiliza para la gestión del estado en el frontend."
+              description="Una aplicación web full-stack que implementa un juego de ruleta multijugador. El frontend, desarrollado con React y Babylon.js, ofrece una experiencia 3D inmersiva. El backend, construido con Node.js, Express y Socket.io, gestiona la lógica del juego en tiempo real y la comunicación entre los jugadores.  MobX se utiliza para la gestión del estado en el frontend."
               ghLink="https://github.com/wuaicot/WUAICOT-RULETA.git"
               demoLink="https://wuaicot-ruleta-n2qj-theta.vercel.app/"
             />

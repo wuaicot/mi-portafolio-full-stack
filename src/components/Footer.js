@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -59,6 +60,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="http://www.youtube.com/@wuaicot"
+                style={{ color: "#700c86" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillYoutube />
               </a>
             </li>
           </ul>
