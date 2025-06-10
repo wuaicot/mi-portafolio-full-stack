@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
@@ -18,7 +17,10 @@ function Footer() {
           <h3>Diseñado y desarrollado por Naycol R. Linares V.</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} <span className= "animate-pulse purple">WUAICOT</span></h3>
+          <h3>
+            Copyright © {year}{" "}
+            <span className="animate-pulse purple">WUAICOT</span>
+          </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
