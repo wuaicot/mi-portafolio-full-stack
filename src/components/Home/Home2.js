@@ -5,15 +5,22 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section translate-y-20" id="about">
       <Row>
         <Col md={8} className="home-about-description">
-          <h1 style={{ fontSize: "2.6em" }}>
+          <h1 style={{ fontSize: "2.4em",            
+            paddingBottom: "20px",
+            color: "#700c86",
+            fontWeight: "bold",
+            textAlign: "center",
+            textTransform: "uppercase",
+           }}>
             PERMITAME <span className="purple"> PRESENTARME </span>
           </h1>
           <p className="home-about-body">
@@ -60,10 +67,10 @@ function Home2() {
         <Col md={12} className="home-about-social">
           <h1>ENCUÉNTRAME EN</h1>
           <p>
-            Siéntete libre de hacer <span className="purple"> clic </span>
+            Por favor haz  clic 
             en:
           </p>
-          <ul className="home-about-social-links">
+          <ul className="home-about-social-links ">
             <li className="social-icons">
               <a
                 href="https://github.com/wuaicot"
@@ -102,7 +109,18 @@ function Home2() {
                 className="icon-colour home-social-icons"
               >
                 <AiFillInstagram />
+              </a>                         
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.Youtube.com/@wuaicot"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiFillYoutube />
               </a>
+                         
             </li>
           </ul>
         </Col>
