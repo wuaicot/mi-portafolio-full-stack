@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.webp";
-import Tilt from "react-parallax-tilt";
+//import myImg from "../../Assets/avatar.webp";
+//import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -17,7 +17,7 @@ function Home2() {
             PERMITAME <span className="purple"> PRESENTARME </span>
           </h1>
           <p className="home-about-body">
-            Me enamoré de la programación y estoy en constante apredizaje
+            Me apasiona la programación y estoy en constante apredizaje
             <br />
             <br />
             Soy fluido en lenguajes y tecnologías como
@@ -30,24 +30,21 @@ function Home2() {
             </i>
             <br />
             <br />
-            Mi campo de interés es la creación de nuevas &nbsp;
+            Mi campo de interés es la innovación de herramientas &nbsp;
             <i>
-              <b className="purple">soluciones digitales </b> y
-              también en áreas relacionadas con <b className="purple">IA.</b>
+              <b className="purple">Soluciones Digitales </b> y también en áreas
+              relacionadas con <b className="purple">IA.</b>
             </i>
             <br />
             <br />
             Siempre que puedo, también hago adelantos en el código de algunos
             productos que estoy desarrollando con{" "}
-            <b className="purple">Node.js/Nest.js|React.js/Next.js/Vite/Astro</b>,
-            
-            &nbsp; como
-            <i>
-              <b className="purple"> React.js, Next.js | Vite | Astro.</b>
-            </i>
+            <b className="purple">
+              Node.js/Nest.js | React.js/Next.js/Vite/Astro
+            </b>           
           </p>
         </Col>
-        <Col md={4} className="myAvtar">
+        {/* <Col md={4} className="myAvtar">
           <Tilt>
             <a
               href="https://opensea.io/es/wuaicotnft22"
@@ -57,7 +54,7 @@ function Home2() {
               <img src={myImg} className="img-fluid" alt="avatar" />
             </a>
           </Tilt>
-        </Col>
+        </Col> */}
       </Row>
       <Row>
         <Col md={12} className="home-about-social">
