@@ -1,3 +1,4 @@
+//src/components/Home/Home.js
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
@@ -6,37 +7,46 @@ import Type from "./Type";
 
 function Home() {
   return (
-    <section className="">
+    <section>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row className="">
-            <Col md={7} className="home-header pt-5 ">
-              <h1 style={{ paddingBottom: 15 }} className="heading home-title "> 
+          <Row className="align-items-center">
+            <Col
+              xs={12}
+              md={7}
+              className="home-header text-center text-md-start pt-4 pt-md-5"
+            >
+              <h1 className="heading home-title mb-3">
                 Hola!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h1 className="heading-name mb-4">
                 Soy
-                <strong className="main-name"> Naycol R. Linares Villasmil</strong>
+                <strong className="main-name">
+                  {" "}
+                  Naycol R. Linares Villasmil
+                </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="typewriter-container text-md-start text-center px-3 px-md-0">
                 <Type />
               </div>
             </Col>
 
-            <Col md={5}  style={{ paddingBottom: 20 }}>
+            <Col
+              xs={12}
+              md={5}
+              className="d-flex justify-content-center mt-4 mt-md-0"
+            >
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "500px",
-                  
-                 }}
+                style={{ maxHeight: "400px", width: "100%", objectFit: "contain" }}
               />
             </Col>
           </Row>
@@ -48,3 +58,4 @@ function Home() {
 }
 
 export default Home;
+

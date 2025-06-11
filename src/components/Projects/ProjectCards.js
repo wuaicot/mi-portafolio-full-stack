@@ -5,35 +5,47 @@ import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+    <Card className="project-card-view glass-effect h-100 d-flex flex-column">
+      <div className="overflow-hidden">
+        <Card.Img
+          variant="top"
+          src={props.imgPath}
+          alt="card-img"
+          className="img-fluid"
+          style={{ objectFit: "cover", height: "200px", width: "100%" }}
+        />
+      </div>
+      <Card.Body className="d-flex flex-column">
+        <Card.Title className="fw-bold mb-3">{props.title}</Card.Title>
+        <Card.Text className="flex-grow-1 text-justify">
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "Ir a GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
-
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
+        <div className="mt-3 d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
           <Button
             variant="primary"
-            href={props.demoLink}
+            href={props.ghLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            className="glass-effect"
           >
-            <CgWebsite /> &nbsp;
-            {"Ver"}
+            <BsGithub size={20} /> &nbsp;
+            {props.isBlog ? "Blog" : "Ir a GitHub"}
           </Button>
-        )}
+
+          {!props.isBlog && props.demoLink && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              className="glass-effect"
+            >
+              <CgWebsite size={20} /> &nbsp;
+              Ver
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;

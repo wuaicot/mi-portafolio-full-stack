@@ -1,80 +1,23 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import {
-//   AiFillGithub,
-//   AiOutlineTwitter,
-//   AiFillInstagram,
-//   AiFillYoutube,
-// } from "react-icons/ai";
-//import { FaLinkedinIn } from "react-icons/fa";
+
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  const year = new Date().getFullYear();
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Diseñado y desarrollado por Naycol R. Linares V.</h3>
+    <Container fluid className="footer glass-effect mb-4 ">
+      <Row className="align-items-center text-center text-md-start">
+        <Col xs={12} md={4} className="mb-3 mb-md-0">
+          <h3 className="mb-0">Diseñado y desarrollado por Naycol R. Linares V.</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>
-            Copyright © {year}{" "}
-            <span className="cursor-poninter purple">WUAICOT</span>
+
+        <Col xs={12} md={4} className="mb-2 mb-md-0">
+          <h3 className="mb-0">
+            © {year} <span className="purple"> WUAICOT</span>
           </h3>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            {/* <li className="social-icons">
-              <a
-                href="https://github.com/wuaicot"
-                style={{ color: "#700c86" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/naiycol"
-                style={{ color: "#700c86" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/wuaicot"
-                style={{ color: "#700c86" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/naycol.linares"
-                style={{ color: "#700c86" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="http://www.youtube.com/@wuaicot"
-                style={{ color: "#700c86" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillYoutube />
-              </a>
-            </li> */}
-          </ul>
+
+        <Col xs={12} md={4} className="footer-body">
+          
         </Col>
       </Row>
     </Container>

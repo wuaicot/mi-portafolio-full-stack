@@ -1,6 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-//import myImg from "../../Assets/avatar.webp";
-//import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -11,20 +9,15 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section translate-y-20" id="about">
-      <Row>
-        <Col md={8} className="home-about-description">
-          <h1 style={{ fontSize: "2.4em",            
-            paddingBottom: "20px",
-            color: "#700c86",
-            fontWeight: "bold",
-            textAlign: "center",
-            textTransform: "uppercase",
-           }}>
-            PERMITAME <span className="purple"> PRESENTARME </span>
+    <Container fluid className="home-about-section py-5 px-3" id="about">
+      <Row className="justify-content-center">
+        <Col lg={8} md={10} sm={12} className="home-about-description text-center">
+          <h1 className="mb-4 text-uppercase fw-bold text-purple" style={{ fontSize: "clamp(1.5rem, 4vw, 2.4rem)" }}>
+            PERMÍTAME <span className="purple">PRESENTARME</span>
           </h1>
-          <p className="home-about-body">
-            Me apasiona la programación y estoy en constante apredizaje
+
+          <p className="home-about-body text-justify text-md-center">
+            Me apasiona la programación y estoy en constante aprendizaje.
             <br />
             <br />
             Soy fluido en lenguajes y tecnologías como
@@ -32,95 +25,55 @@ function Home2() {
               <b className="purple">
                 {" "}
                 Javascript, TypeScript, Css, Html, Node, Express, React, Redux,
-                Postgre-SQL, entre otros
+                PostgreSQL, entre otros.
               </b>
             </i>
             <br />
             <br />
-            Mi campo de interés es la innovación de herramientas &nbsp;
+            Mi campo de interés es la innovación de herramientas digitales &nbsp;
             <i>
-              <b className="purple">Soluciones Digitales </b> y también en áreas
-              relacionadas con <b className="purple">IA.</b>
+              <b className="purple">y soluciones basadas en IA</b>.
             </i>
             <br />
             <br />
-            Siempre que puedo, también hago adelantos en el código de algunos
-            productos que estoy desarrollando con{" "}
+            Siempre que puedo, también trabajo en el código de algunos productos
+            personales usando{" "}
             <b className="purple">
-              Node.js/Nest.js | React.js/Next.js/Vite/Astro
-            </b>           
+              Node.js/Nest.js | React.js/Next.js/Vite/Astro.
+            </b>
           </p>
         </Col>
-        {/* <Col md={4} className="myAvtar">
-          <Tilt>
-            <a
-              href="https://opensea.io/es/wuaicotnft22"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </a>
-          </Tilt>
-        </Col> */}
       </Row>
-      <Row>
-        <Col md={12} className="home-about-social">
-          <h1>ENCUÉNTRAME EN</h1>
-          <p>
-            Por favor haz  clic 
-            en:
-          </p>
-          <ul className="home-about-social-links ">
+
+      <Row className="justify-content-center mt-5">
+        <Col md={12} className="home-about-social text-center">
+          <h1 className="mb-3">ENCUÉNTRAME EN</h1>
+          <p className="mb-4">Por favor haz clic en:</p>
+          <ul className="home-about-social-links d-flex flex-wrap justify-content-center gap-3 p-0">
             <li className="social-icons">
-              <a
-                href="https://github.com/wuaicot"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <AiFillGithub />
+              <a href="https://github.com/wuaicot" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <AiFillGithub size={32} />
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://twitter.com/naiycol"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <AiOutlineTwitter />
+              <a href="https://twitter.com/naiycol" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <AiOutlineTwitter size={32} />
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/wuaicot/"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
-              >
-                <FaLinkedinIn />
+              <a href="https://www.linkedin.com/in/wuaicot/" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <FaLinkedinIn size={32} />
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://www.instagram.com/naycol.linares"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour home-social-icons"
-              >
-                <AiFillInstagram />
-              </a>                         
+              <a href="https://www.instagram.com/naycol.linares" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <AiFillInstagram size={32} />
+              </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://www.Youtube.com/@wuaicot"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour home-social-icons"
-              >
-                <AiFillYoutube />
+              <a href="https://www.youtube.com/@wuaicot" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <AiFillYoutube size={32} />
               </a>
-                         
             </li>
           </ul>
         </Col>
@@ -128,4 +81,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
