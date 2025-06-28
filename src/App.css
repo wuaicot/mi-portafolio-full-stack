@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+/* --- ESTILOS GENERALES Y RESPONSIVOS --- */
+
+/* Colores de texto principales */
+.home-header h1,
+.home-about-description h1,
+.home-about-social h1,
+.home-about-social p,
+.footer h3,
+.home-about-body {
+  color: white;
+}
+
+.Typewriter__wrapper {
+  color: white !important; /* Se necesita !important por la librería externa */
+}
+
+/* Estilos de la Barra de Navegación */
+.navbar {
+  background-color: #1a1a1a;
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Se necesita !important para sobreescribir Bootstrap */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c770f0 !important;
+}
+
+/* Icono del menú de hamburguesa */
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Icono del menú de hamburguesa personalizado */
+.navbar-toggler span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Menú desplegable en móviles */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #06dafb9c;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Etiquetas de Tecnología */
+.tech-tag {
+  display: inline-block;
+  background-color: rgba(199, 112, 240, 0.15);
+  color: #c770f0;
+  border: 1px solid #c770f0;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+
+.tech-tag:hover {
+  background-color: #c770f0;
+  color: white;
+  transform: scale(1.05);
+  cursor: default;
+}

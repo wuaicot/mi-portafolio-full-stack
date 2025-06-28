@@ -8,9 +8,9 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section " id="home">
         <Particle />
-        <Container className="home-content">
+        <Container className="home-content pt-5 ">
           <Row className="align-items-center">
             <Col
               xs={12}

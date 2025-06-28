@@ -9,25 +9,36 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section py-5 px-3" id="about">
-      <Row className="justify-content-center">
+    <Container fluid className="home-about-section py-0  px-3" id="about ">
+      <Row className="justify-content-center ">
         <Col lg={8} md={10} sm={12} className="home-about-description text-center">
-          <h1 className="mb-4 text-uppercase fw-bold text-purple" style={{ fontSize: "clamp(1.5rem, 4vw, 2.4rem)" }}>
+          <h1 className=" text-uppercase fw-bold purple " style={{ fontSize: "clamp(1.5rem, 4vw, 2.4rem)", paddingTop: "0", transform: "translateY(-50px)"}}>
             PERMÍTAME <span className="purple">PRESENTARME</span>
           </h1>
-
-          <p className="home-about-body text-justify text-md-center">
+          <p className=" text-justify text-md-center">
             Me apasiona la programación y estoy en constante aprendizaje.
             <br />
             <br />
-            Soy fluido en lenguajes y tecnologías como
-            <i>
-              <b className="purple">
-                {" "}
-                Javascript, TypeScript, Css, Html, Node, Express, React, Redux,
-                PostgreSQL, entre otros.
-              </b>
-            </i>
+            Soy fluido en las siguientes tecnologías:
+            <br />
+            <br />
+            <div style={{ textAlign: "center" }}>
+              {[
+                "Javascript",
+                "TypeScript",
+                "CSS",
+                "Html",
+                "Node.js",
+                "Express",
+                "React",
+                "Redux",
+                "PostgreSQL",
+              ].map((tech, index) => (
+                <span key={index} className="tech-tag">
+                  {tech}
+                </span>
+              ))}
+            </div>
             <br />
             <br />
             Mi campo de interés es la innovación de herramientas digitales &nbsp;
@@ -47,8 +58,8 @@ function Home2() {
 
       <Row className="justify-content-center mt-5">
         <Col md={12} className="home-about-social text-center">
-          <h1 className="mb-3">ENCUÉNTRAME EN</h1>
-          <p className="mb-4">Por favor haz clic en:</p>
+          <h1 className="mb-3">CONTACTAME</h1>
+          <p className="mb-4">Puedes hacer clic en:</p>
           <ul className="home-about-social-links d-flex flex-wrap justify-content-center gap-3 p-0">
             <li className="social-icons">
               <a href="https://github.com/wuaicot" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
