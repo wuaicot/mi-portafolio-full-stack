@@ -385,7 +385,6 @@ button:focus {
 }
 
 .home-social-icons:hover {
-  color: #87209e;
   box-shadow: 0 0 5px #87209e;
   text-shadow: 0 0 2px #87209e;
 }
@@ -396,8 +395,23 @@ button:focus {
   padding-left: 15px;
 }
 
-.icon-colour {
-  color: #700c86 !important;
+.home-social-icons.github {
+  color: #333 !important;
+}
+.home-social-icons.twitter {
+  color: #1da1f2 !important;
+}
+.home-social-icons.linkedin {
+  color: #0a66c2 !important;
+}
+.home-social-icons.instagram {
+  color: #e4405f !important;
+}
+.home-social-icons.youtube {
+  color: #ff0000 !important;
+}
+.home-social-icons.whatsapp {
+  color: #25d366 !important;
 }
 
 /* --------- */

@@ -76,7 +76,7 @@ function Home2() {
                 href="https://github.com/wuaicot"
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour home-social-icons"
+                className="home-social-icons github"
               >
                 <AiFillGithub size={32} />
               </a>
@@ -86,7 +86,7 @@ function Home2() {
                 href="https://twitter.com/naiycol"
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour home-social-icons"
+                className="home-social-icons twitter"
               >
                 <AiOutlineTwitter size={32} />
               </a>
@@ -96,7 +96,7 @@ function Home2() {
                 href="https://www.linkedin.com/in/wuaicot/"
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour home-social-icons"
+                className="home-social-icons linkedin"
               >
                 <FaLinkedinIn size={32} />
               </a>
@@ -106,7 +106,7 @@ function Home2() {
                 href="https://www.instagram.com/naycol.linares"
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour home-social-icons"
+                className="home-social-icons instagram"
               >
                 <AiFillInstagram size={32} />
               </a>
@@ -116,7 +116,7 @@ function Home2() {
                 href="https://www.youtube.com/@wuaicot"
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour home-social-icons"
+                className="home-social-icons youtube"
               >
                 <AiFillYoutube size={32} />
               </a>
@@ -126,7 +126,7 @@ function Home2() {
                 href="https://wa.me/56963380684"
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour home-social-icons"
+                className="home-social-icons whatsapp"
               >
                 <FaWhatsapp size={32} />
               </a>
