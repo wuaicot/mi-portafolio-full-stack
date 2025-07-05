@@ -28,7 +28,7 @@ function Home() {
                 Soy
                 <strong className="main-name">
                   {" "}
-                  Naycol R. Linares Villasmil
+                  Naycol R. Linares V.
                 </strong>
               </h1>
 

@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import profileImg from "../../Assets/unnamed.jpg";
+//import profileImg from "../../Assets/unnamed.jpg";
 
 function About() {
   return (
@@ -22,14 +22,14 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <div style={{ textAlign: "center", marginBottom: "20px" }}>
+            {/* <div style={{ textAlign: "center", marginBottom: "20px" }}>
               <img
                 src={profileImg}
                 alt="profile"
                 className="img-fluid"
                 style={{ borderRadius: "50%", maxWidth: "150px" }}
               />
-            </div>
+            </div> */}
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Así <strong className="purple">soy !</strong>
             </h1>                                 

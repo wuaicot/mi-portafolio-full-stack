@@ -16,7 +16,7 @@ function Projects() {
     <Container fluid className="project-section py-5" id="projects">
       <Particle />
       <Container>
-        <h1 className="project-heading text-center mb-3">
+        <h1 className="project-heading text-center mb-3 mt-5">
           Mis Proyectos <strong className="purple">Recientes</strong>
         </h1>
         <p className="text-center text-white mb-5">
