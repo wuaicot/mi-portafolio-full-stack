@@ -10,6 +10,7 @@ import dropshipping from "../../Assets/Projects/demoDropShippingLaptop.png";
 import enesperalaptop from "../../Assets/Projects/enesperalaptop.png";
 import landinglaptop from "../../Assets/Projects/landinglaptop.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import libroderegistros from "../../Assets/Projects/libroderegistros.png";
 
 function Projects() {
   return (
@@ -24,6 +25,14 @@ function Projects() {
         </p>
         <Row className="justify-content-center gx-4 gy-4">
           {[
+            {
+              img: libroderegistros,
+              title: "Libro de Registros 2.0",
+              description:
+                "Aplicación web para gestión de registros de asistencia y control de acceso. Next, Nest, TailwindCSS, Typescript.",
+              ghLink: "",
+              demoLink: "https://libro-de-registros-frontend-i.vercel.app/"
+            },
             {
               img: landinglaptop,
               title: "Demo-Landing Page",
