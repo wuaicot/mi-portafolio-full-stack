@@ -11,6 +11,7 @@ import enesperalaptop from "../../Assets/Projects/enesperalaptop.png";
 import landinglaptop from "../../Assets/Projects/landinglaptop.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import libroderegistros from "../../Assets/Projects/libroderegistros.png";
+import cuadrusistem from "../../Assets/Projects/cuadrusistem.png";
 
 function Projects() {
   return (
@@ -25,6 +26,14 @@ function Projects() {
         </p>
         <Row className="justify-content-center gx-4 gy-4">
           {[
+            {
+              img: cuadrusistem,
+              title: "CuadruSistem",
+              description:
+                "Gestion administrativa escalable y confiable. Express, Vite, TailwindCSS, Typescript, Railway.",
+              ghLink: "",
+              demoLink: "https://cuadrusistem-obelisco-production-3428.up.railway.app/"
+            },
             {
               img: libroderegistros,
               title: "Libro de Registros 2.0",
