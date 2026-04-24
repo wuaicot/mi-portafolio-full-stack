@@ -25,7 +25,7 @@ function About() {
             <div style={{ textAlign: "center", marginBottom: "20px" }}>
               <img
                 src={profileImg}
-                alt="profile"
+                alt="Naycol Rodolfo Linares Villasmil - Foto de perfil"
                 className="img-fluid"
                 style={{ borderRadius: "50%", maxWidth: "150px" }}
               />
@@ -40,7 +40,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={laptopImg} alt="Naycol Rodolfo Linares Villasmil - Ilustración sobre mí" className="img-fluid" />
           </Col>
         </Row>
 

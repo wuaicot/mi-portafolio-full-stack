@@ -123,7 +123,7 @@ function Home2() {
             </li>
             <li className="social-icons">
               <a
-                href="https://wa.me/56963380684"
+                href="https://wa.me/56946230876"
                 target="_blank"
                 rel="noreferrer"
                 className="home-social-icons whatsapp"
