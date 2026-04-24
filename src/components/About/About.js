@@ -30,9 +30,9 @@ function About() {
                 style={{ borderRadius: "50%", maxWidth: "150px" }}
               />
             </div>
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Naycol Rodolfo <strong className="purple">Linares Villasmil </strong>
-            </h1>                                 
+            {/* <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Hola <strong className="purple">!</strong>
+            </h1>                                  */}
             <Aboutcard />
           </Col>
           <Col

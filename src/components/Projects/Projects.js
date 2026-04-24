@@ -30,7 +30,7 @@ function Projects() {
               img: cuadrusistem,
               title: "CuadruSistem",
               description:
-                "Gestion administrativa escalable y confiable. Express, Vite, TailwindCSS, Typescript, Railway.",
+                "Sistema integral de gestión administrativa diseñado para la optimización de procesos empresariales. Desarrollado con una arquitectura escalable utilizando Express, Vite y TypeScript, garantizando alta disponibilidad.",
               ghLink: "",
               demoLink: "https://cuadrusistem-obelisco-production-3428.up.railway.app/"
             },
@@ -38,15 +38,15 @@ function Projects() {
               img: libroderegistros,
               title: "Libro de Registros 2.0",
               description:
-                "Aplicación web para gestión de registros de asistencia y control de acceso. Next, Nest, TailwindCSS, Typescript.",
+                "Plataforma avanzada de control de asistencia y gestión de accesos con autenticación robusta. Construida con Next.js y NestJS, optimizando la persistencia de datos y el tiempo de respuesta del servidor.",
               ghLink: "",
               demoLink: "https://libro-de-registros-frontend-i.vercel.app/"
             },
             {
               img: landinglaptop,
-              title: "Demo-Landing Page",
+              title: "Modern Landing Page",
               description:
-                "Ejemplo de landing page minimalista, moderno y responsivo. ReactJS, HTML, CSS, JavaScript.",
+                "Desarrollo de landing page de alta conversión con enfoque en UX/UI responsivo. Implementación de animaciones fluidas y optimización de Core Web Vitals para mejorar el posicionamiento SEO.",
               ghLink: "https://github.com/wuaicot/landingpage-templete.git",
               demoLink: "https://landingpage-templete.vercel.app/"
             },
@@ -54,7 +54,7 @@ function Projects() {
               img: enesperalaptop,
               title: "Enespera.com",
               description:
-                "Aplicación web para reservas y compra de propiedades. React, Redux, CSS, JavaScript.",
+                "Aplicación del sector Real Estate para la reserva y gestión de propiedades en tiempo real. Gestión de estado complejo con Redux y una interfaz optimizada para dispositivos móviles.",
               ghLink: "",
               demoLink: "https://www.enespera.com/"
             },
@@ -62,56 +62,56 @@ function Projects() {
               img: chatify,
               title: "Chatify",
               description:
-                "Sala de chat personal con React.js, Material-UI, Firebase: mensajes en tiempo real, compartir imágenes, reacciones.",
-              ghLink: "https://github.com/soumyajit4419/Chatify",
+                "Aplicación de mensajería instantánea con Firebase. Permite comunicación en tiempo real, transferencia de archivos y reacciones, priorizando la baja latencia y la seguridad de los datos.",
+              ghLink: "https://github.com/wuaicot/Chatify",
               demoLink: "https://chatify-49.web.app/"
             },
             {
               img: dropshipping,
-              title: "Demo-DropShipping",
+              title: "E-Commerce Automático",
               description:
-                "App que consume las APIs Printful y Snipcart con NextJS, NodeJS, TailwindCSS.",
+                "Solución de DropShipping integrada con APIs de logística (Printful) y pagos (Snipcart). Automatización de inventario y pedidos utilizando Next.js y Node.js.",
               ghLink: "https://github.com/wuaicot/demo_dropshipping.git",
               demoLink: "https://demo-dropshipping.vercel.app/"
             },
             {
               img: demoe,
-              title: "Demo E-Commerce",
+              title: "Shopify Custom Store",
               description:
-                "Tienda en línea minimalista con NextJS, Shopify, NodeJS, TypeScript.",
+                "Experiencia de compra premium integrada con el ecosistema de Shopify. Uso de TypeScript para un código robusto y Next.js para una renderización ultra rápida.",
               ghLink:
                 "https://github.com/wuaicot/Demo-e-comerceWuaicot.git",
               demoLink: "https://demo-e-comerce-wuaicot.vercel.app/"
             },
             {
               img: demoScroll,
-              title: "Scroll Performance Test",
+              title: "Performance Analytics",
               description:
-                "Página web con rendimiento optimizado de scroll usando NextJS, TailwindCSS, JavaScript.",
+                "Laboratorio de optimización de rendimiento enfocado en técnicas de renderizado y scroll fluido. Caso de estudio sobre eficiencia de carga en el frontend.",
               ghLink: "https://github.com/wuaicot/new-page-new.git",
               demoLink: "https://new-page-new.vercel.app/"
             },
             {
               img: bitsOfCode,
-              title: "Blog-Wuaicot",
+              title: "Tech Blog Professional",
               description:
-                "Blog personal con Next.js y TailwindCSS, contenido Markdown y modo oscuro.",
+                "Plataforma de contenidos técnicos basada en Markdown. Sistema de gestión de contenidos ligero que prioriza la legibilidad y el SEO orgánico.",
               ghLink: "https://github.com/wuaicot/Blog-Wuaicot.git",
               demoLink: "https://blog-wuaicot-rust.vercel.app/"
             },
             {
               img: editor,
-              title: "Editor.io",
+              title: "Cloud Code Editor",
               description:
-                "Editor de código y Markdown en línea con React.js: vista instantánea y guardado automático.",
-              ghLink: "https://github.com/soumyajit4419/Editor.io",
+                "Editor de código colaborativo con soporte para Markdown. Ofrece previsualización instantánea en el navegador y persistencia de sesiones con React.js.",
+              ghLink: "https://github.com/wuaicot/Editor.io",
               demoLink: "https://editor.soumya-jit.tech/"
             },
             {
               img: ruleta,
-              title: "WUAICOT RULETA",
+              title: "3D Multiplayer Experience",
               description:
-                "Juego de ruleta multijugador 3D con React, Babylon.js, Node.js, Express, Socket.io y MobX.",
+                "Juego inmersivo multijugador con gráficos 3D. Integración de Babylon.js para el motor gráfico y Socket.io para la sincronización de estado en tiempo real entre múltiples usuarios.",
               ghLink: "https://github.com/wuaicot/WUAICOT-RULETA.git",
               demoLink:
                 "https://wuaicot-ruleta-n2qj-theta.vercel.app/"

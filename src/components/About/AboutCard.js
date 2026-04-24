@@ -8,30 +8,32 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            {/* Hola Mundo! <span className="purple">Naycol R. Linares, </span> */}
-            En programación  me identifico como <span className="purple"> wuaicot</span>
+            ¡Hola! Soy <span className="purple">Naycol Rodolfo Linares Villasmil</span>,
+            desarrollador Full Stack con base en <span className="purple">Chile.</span>
             <br />
-            Actualmente trabajo como desarrollador de aplicaciones web en modalidad freelance.            <br />
-            Completé un BootCamp especializado Full Stack y otros cursos
+            Me especializo en construir aplicaciones web modernas, escalables y centradas en el usuario.
+            <br />
+            Actualmente, me desempeño como desarrollador freelance, liderando proyectos desde la arquitectura hasta el despliegue.
             <br />
             <br />
-            ¡Además de codificar, hay otras actividades que me encanta hacer!          </p>
+            ¡Además de escribir código, me apasiona:!
+          </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />  Jugar Videojuegos
+              <ImPointRight /> Explorar e integrar soluciones de Inteligencia Artificial
             </li>
             <li className="about-activity">
-              <ImPointRight />  Escribir en blogs sobre tecnología
+              <ImPointRight /> Escribir sobre tendencias tecnológicas en mi Blog
             </li>
             <li className="about-activity">
-              <ImPointRight /> Trabajos part-time no relacionados con la programación
+              <ImPointRight /> Participar en comunidades de código abierto
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "¡Esfuérzate por aprender algo nuevo cada día!"{" "}
+            "La tecnología es mejor cuando une a las personas y resuelve problemas reales."{" "}
           </p>
-          <footer className="blockquote-footer">wuaicot</footer>
+          <footer className="blockquote-footer">Naycol Linares</footer>
         </blockquote>
       </Card.Body>
     </Card>
