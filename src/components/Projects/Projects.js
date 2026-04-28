@@ -40,7 +40,7 @@ function Projects() {
               description:
                 "Plataforma avanzada de control de asistencia y gestión de accesos con autenticación robusta. Construida con Next.js y NestJS, optimizando la persistencia de datos y el tiempo de respuesta del servidor.",
               ghLink: "",
-              demoLink: "https://libro-de-registros-frontend-i.vercel.app/"
+              demoLink: "https://conozca-libro-de-registros-2-0.vercel.app/"
             },
             {
               img: landinglaptop,
