@@ -2,7 +2,7 @@
 
 [Wuaicot](https://mi-portafolio-full-stack.vercel.app/)
 <div align="center">
-  ![Demo](./Images/readme-img1.png)
+  ![Demo](./Images/favicon.ico.ico)
 </div>
 
 
