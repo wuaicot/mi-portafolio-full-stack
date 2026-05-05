@@ -6,8 +6,16 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { trackEvent } from "../Analytics";
 
 function Home2() {
+  const handleSocialClick = (platform) => {
+    trackEvent("social_click", {
+      platform: platform,
+      event_category: "Engagement"
+    });
+  };
+
   return (
     <Container fluid className="home-about-section py-0  px-3" id="about ">
       <Row className="justify-content-center ">
@@ -77,6 +85,7 @@ function Home2() {
                 target="_blank"
                 rel="noreferrer"
                 className="home-social-icons github"
+                onClick={() => handleSocialClick("GitHub")}
               >
                 <AiFillGithub size={32} />
               </a>
@@ -87,6 +96,7 @@ function Home2() {
                 target="_blank"
                 rel="noreferrer"
                 className="home-social-icons twitter"
+                onClick={() => handleSocialClick("Twitter")}
               >
                 <AiOutlineTwitter size={32} />
               </a>
@@ -97,6 +107,7 @@ function Home2() {
                 target="_blank"
                 rel="noreferrer"
                 className="home-social-icons linkedin"
+                onClick={() => handleSocialClick("LinkedIn")}
               >
                 <FaLinkedinIn size={32} />
               </a>
@@ -107,6 +118,7 @@ function Home2() {
                 target="_blank"
                 rel="noreferrer"
                 className="home-social-icons instagram"
+                onClick={() => handleSocialClick("Instagram")}
               >
                 <AiFillInstagram size={32} />
               </a>
@@ -117,6 +129,7 @@ function Home2() {
                 target="_blank"
                 rel="noreferrer"
                 className="home-social-icons youtube"
+                onClick={() => handleSocialClick("YouTube")}
               >
                 <AiFillYoutube size={32} />
               </a>
@@ -127,6 +140,7 @@ function Home2() {
                 target="_blank"
                 rel="noreferrer"
                 className="home-social-icons whatsapp"
+                onClick={() => handleSocialClick("WhatsApp")}
               >
                 <FaWhatsapp size={32} />
               </a>

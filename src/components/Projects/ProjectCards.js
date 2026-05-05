@@ -2,15 +2,30 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { trackEvent } from "../Analytics";
 
 function ProjectCards(props) {
+  const handleGithubClick = () => {
+    trackEvent("project_github_click", {
+      project_title: props.title,
+      event_category: "Engagement"
+    });
+  };
+
+  const handleDemoClick = () => {
+    trackEvent("project_demo_click", {
+      project_title: props.title,
+      event_category: "Engagement"
+    });
+  };
+
   return (
     <Card className="project-card-view glass-effect h-100 d-flex flex-column">
       <div className="overflow-hidden">
         <Card.Img
           variant="top"
           src={props.imgPath}
-          alt="card-img"
+          alt={`${props.title} - Preview`}
           className="img-fluid"
           style={{ objectFit: "cover", height: "200px", width: "100%" }}
         />
@@ -26,6 +41,7 @@ function ProjectCards(props) {
             href={props.ghLink}
             target="_blank"
             className="glass-effect"
+            onClick={handleGithubClick}
           >
             <BsGithub size={20} /> &nbsp;
             {props.isBlog ? "Blog" : "Ir a GitHub"}
@@ -37,6 +53,7 @@ function ProjectCards(props) {
               href={props.demoLink}
               target="_blank"
               className="glass-effect"
+              onClick={handleDemoClick}
             >
               <CgWebsite size={20} /> &nbsp;
               Ver

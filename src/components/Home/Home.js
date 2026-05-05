@@ -4,10 +4,16 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import SEO from "../SEO";
 
 function Home() {
   return (
-    <section>
+    <main>
+      <SEO 
+        title="Home"
+        description="Explora el portafolio de Naycol Linares, Desarrollador Full Stack experto en React, Node.js y soluciones innovadoras de IA. Potencia tu negocio con software de alta calidad."
+        keywords="Full Stack Developer, React Expert, Node.js Specialist, Desarrollador Web Chile, AI Integration, Naycol Linares, Wuaicot"
+      />
       <Container fluid className="home-section " id="home">
         <Particle />
         <Container className="home-content pt-5 ">
@@ -44,7 +50,7 @@ function Home() {
             >
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="Naycol Linares - Full Stack Developer Portfolio Illustration"
                 className="img-fluid"
                 style={{ maxHeight: "400px", width: "100%", objectFit: "contain" }}
               />
@@ -53,7 +59,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-    </section>
+    </main>
   );
 }
 

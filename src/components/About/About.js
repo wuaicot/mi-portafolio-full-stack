@@ -7,57 +7,63 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import profileImg from "../../Assets/unnamed.jpg";
+import SEO from "../SEO";
 
 function About() {
   return (
-    <Container fluid className="about-section">
-      <Particle />
-      <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <div style={{ textAlign: "center", marginBottom: "20px" }}>
-              <img
-                src={profileImg}
-                alt="Naycol Rodolfo Linares Villasmil - Foto de perfil"
-                className="img-fluid"
-                style={{ borderRadius: "50%", maxWidth: "150px" }}
-              />
-            </div>
-            {/* <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Hola <strong className="purple">!</strong>
-            </h1>                                  */}
-            <Aboutcard />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="Naycol Rodolfo Linares Villasmil - Ilustración sobre mí" className="img-fluid" />
-          </Col>
-        </Row>
+    <main>
+      <SEO 
+        title="Sobre Mí"
+        description="Conoce la trayectoria de Naycol Linares, Desarrollador Full Stack. Especialista en React, Node.js y NestJS con un enfoque en la innovación y soluciones digitales de alto impacto."
+        keywords="Sobre Naycol Linares, Full Stack Developer Experience, React Developer Chile, Node.js Expert, Habilidades Programación"
+        url="about"
+      />
+      <Container fluid className="about-section">
+        <Particle />
+        <Container>
+          <Row style={{ justifyContent: "center", padding: "10px" }}>
+            <Col
+              md={7}
+              style={{
+                justifyContent: "center",
+                paddingTop: "30px",
+                paddingBottom: "50px",
+              }}
+            >
+              <div style={{ textAlign: "center", marginBottom: "20px" }}>
+                <img
+                  src={profileImg}
+                  alt="Naycol Rodolfo Linares Villasmil - Desarrollador Full Stack"
+                  className="img-fluid"
+                  style={{ borderRadius: "50%", maxWidth: "150px" }}
+                />
+              </div>
+              <Aboutcard />
+            </Col>
+            <Col
+              md={5}
+              style={{ paddingTop: "120px", paddingBottom: "50px" }}
+              className="about-img"
+            >
+              <img src={laptopImg} alt="Naycol Linares - Especialista en Desarrollo Web y IA" className="img-fluid" />
+            </Col>
+          </Row>
 
-        <h1 className="project-heading">
-          Habilidades <strong className="purple">Profesionales </strong>
-        </h1>
+          <h1 className="project-heading">
+            Habilidades <strong className="purple">Profesionales </strong>
+          </h1>
 
-        <Techstack />
+          <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Herramientas</strong> que uso
-        </h1>
-        <Toolstack />
+          <h1 className="project-heading">
+            <strong className="purple">Herramientas</strong> que uso
+          </h1>
+          <Toolstack />
 
-        <Github />
+          <Github />
+        </Container>
       </Container>
-    </Container>
+    </main>
   );
 }
 
