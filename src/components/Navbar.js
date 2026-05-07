@@ -39,7 +39,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex brand">
+        <Navbar.Brand href="https://desarrollos-wuaicot.vercel.app/"  className="d-flex brand">
           <img src={logo} className="img-fluid logo" alt="Naycol Rodolfo Linares Villasmil Logo"/>
         </Navbar.Brand>
         <Navbar.Toggle
