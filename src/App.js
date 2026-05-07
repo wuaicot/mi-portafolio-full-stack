@@ -33,7 +33,7 @@ function App() {
     <Router>
       <Analytics />
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App" id={load ? "no-scroll" : "no-scroll"}>
         <Navbar />
         <ScrollToTop />
         <Routes>
