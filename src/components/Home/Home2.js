@@ -53,6 +53,7 @@ function Home2() {
                 "React/NextJS",
                 "Redux",
                 "PostgreSQL/Prisma",
+                "Phyton3",
               ].map((tech, index) => (
                 <span key={index} className="tech-tag">
                   {tech}
